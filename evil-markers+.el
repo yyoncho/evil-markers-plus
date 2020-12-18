@@ -52,6 +52,7 @@ The marker position will be updated when you change the buffer."
   (setq evil-markers+--local-marker (string-to-char (upcase (char-to-string char))))
   (evil-set-marker evil-markers+--local-marker))
 
+;;;###autoload
 (define-minor-mode evil-markers+-mode
   "Toggle `evil-markers+-mode'."
   :global t
